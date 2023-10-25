@@ -6,6 +6,8 @@
     --rojo: hsl(0, 100%, 63%);
     --blanco: #FFF;
     --negro: #000;
+    --background-hero: #1B2330;
+    --background-body: #181E2A;
 
 
     /*Tipografías*/
@@ -22,4 +24,49 @@
 
 .body {
     font-family: var(--body);
+    font-size: var(--font_size);
+    background-color: var(--background-body);
+    min-width: var(--movil);
+    max-width: var(--desktop);
+    margin: 0;
+    padding: 0;
 } 
+
+/* header */ 
+
+.header {
+    height: 600px;
+    background-color: var(--background-hero);
+    padding: 15px 25px;
+}
+
+.header__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__icon-container--logo {
+    width: 100px;
+}
+
+.nav__list {
+    display: flex;
+    list-style: none;
+}
+
+.nav__list--link {
+    text-decoration: none;
+    margin-right: 30px;
+    color: white;
+}
+
+.nav .link-2 {
+    margin-right: 0;
+}
+
+
+.header__image-container--image {
+    max-width: 100%;
+    margin-top: 50px;
+}
