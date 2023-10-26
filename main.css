@@ -35,7 +35,7 @@
 /* header */ 
 
 .header {
-    height: 400px;
+    height: 380px;
     background-color: var(--background-hero);
     padding: 15px 25px;
 }
@@ -70,3 +70,35 @@
     max-width: 100%;
     margin-top: 50px;
 }
+
+/*section files*/
+
+.files {
+    color: var(--blanco);
+    text-align: center;
+    padding: 0 30px;
+}
+
+.files__background {
+    height: 200px;
+    margin-top: -210px;
+}
+
+.files__title {
+    margin-top: 50px
+}
+
+.files__pgraph {
+    padding: 0px 12px;
+    margin: 30px 0px;
+}
+
+.files__button {
+    padding: 15px 80px;
+    border-radius: 50px;
+    border: none;
+    background-color: var(--azul);
+    color: var(--blanco);
+    font-weight: bold;
+}
+
