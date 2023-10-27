@@ -102,3 +102,20 @@
     font-weight: bold;
 }
 
+/*section characteristics*/
+
+section{
+    color: var(--blanco);
+} 
+
+.characteristics {
+    margin-top: 30px;
+    text-align: center;
+    padding: 0 40px;
+}
+
+.characteristics-icon {
+    margin-top: 70px;
+}
+
+
