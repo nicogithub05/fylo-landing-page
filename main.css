@@ -227,6 +227,32 @@ div.reviews-wrapper__card2 {
     margin-top: 20px;
 }
 
+.form {
+    margin-top: 60px;
+    padding: 0px 30px;
+    text-align: center;
+}
+
+.form-pgraph {
+    color: var(--color-pgraph-cards);
+}
+
+.form-input {
+    width: 90%;
+    padding: 10px;
+    border-radius: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.form-button {
+    width: 100%;
+    padding: 10px;
+    border-radius: 50px;
+    margin-bottom: 20px;
+    background-color: var(--cyan);
+    color: white;
+}
 
 
 
