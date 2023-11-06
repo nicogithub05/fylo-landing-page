@@ -8,6 +8,7 @@
     --negro: #000;
     --background-hero: #1B2330;
     --background-body: #181E2A;
+    --color-pgraph-cards: rgb(167, 167, 167)
 
 
     /*Tipografías*/
@@ -30,6 +31,7 @@
     max-width: var(--desktop);
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
 } 
 
 /* header */ 
@@ -168,8 +170,62 @@ img.productive-wrapper-container1__figure--image {
 }
 
 
+/* section reviews */ 
+
+.reviews {
+    padding: 0 30px;
+    margin-top: 50px
+}
 
 
+.reviews-wrapper__card1-info--image-image {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.reviews-quotes {
+    height: 20px;
+    margin-left: 10px;
+}
+
+.reviews-wrapper__card1 {
+    background-color: var(--background-hero);
+    padding: 10px 30px;
+    margin-bottom: 20px;
+}
+
+.reviews-wrapper__card1-info--image {
+    display: flex;
+    align-items: center;
+}
+
+.pgraph-card-span {
+    display: inline-block;
+    font-size: 10px;
+    color: rgb(167, 167, 167);
+}
+
+div.reviews-wrapper__card2 {
+    margin-top: 40px;
+}
+
+.reviews-wrapper__card2-info--image-image {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-right: 10px; 
+}
+
+.reviews-wrapper__card2-info--image {
+    display: flex;
+    align-items: center;
+}
+
+.reviews-wrapper__card2 {
+    margin-top: 20px;
+}
 
 
 
