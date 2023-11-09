@@ -8,7 +8,7 @@
     --negro: #000;
     --background-hero: #1B2330;
     --background-body: #181E2A;
-    --color-pgraph-cards: rgb(167, 167, 167)
+    --color-pgraph-cards: rgb(167, 167, 167);
 
 
     /*Tipografías*/
@@ -238,7 +238,7 @@ div.reviews-wrapper__card2 {
 }
 
 .form-input {
-    width: 90%;
+    width: 80%;
     padding: 10px;
     border-radius: 50px;
     margin-bottom: 20px;
@@ -246,7 +246,7 @@ div.reviews-wrapper__card2 {
 }
 
 .form-button {
-    width: 100%;
+    width: 90%;
     padding: 10px;
     border-radius: 50px;
     margin-bottom: 20px;
