@@ -254,5 +254,68 @@ div.reviews-wrapper__card2 {
     color: white;
 }
 
+/* footer */ 
 
+footer {
+    color: var(--blanco);
+    padding: 0px 30px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+}
 
+.footer-cont1 {
+    margin-bottom: 30px;
+}
+
+.footer-cont1-img1 {
+    width: 140px;
+}
+
+.footer-cont2-info {
+    display: flex;
+    align-items: center;
+}
+
+.footer-cont-img {
+    height: 15px;
+    width: 15px;
+    margin-right: 20px;
+}
+
+.footer-cont-img-one {
+    align-self: flex-start;
+    margin-top: 5px;
+}
+
+.footer-cont-img-three {
+    width: 17px;
+}
+
+.footer-cont2-info {
+    margin-bottom: 20px;
+}
+
+.footer-cont-pgraph {
+    margin: 0;
+}
+
+.footer-cont-pgraph-one {
+    padding-right: 30px;
+}
+
+.footer-cont2-info2-links {
+    display: block;
+    color: var(--blanco);
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+.footer-cont3 {
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.footer-cont4 {
+    margin-bottom: 50px;
+}
